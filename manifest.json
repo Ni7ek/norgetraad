@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "4chan Ø.user.js" ],
+        "matches":          [   "https://stackoverflow.com/*",
+                                "https://stackoverflow.com/*"
+                            ],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "4chan ø",
+    "name":         "4chan ø",
+    "version":      "1"
+}
